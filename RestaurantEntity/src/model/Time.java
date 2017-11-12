@@ -11,13 +11,14 @@ import java.io.Serializable;
  *
  * @author cuong
  */
-public class Time implements Serializable{
+public class Time implements Serializable {
+
     private int id;
-    
+
     private int minTime;
-    
+
     private int maxTime;
-    
+
     private String periodOfDay;
 
     public Time() {
@@ -54,7 +55,5 @@ public class Time implements Serializable{
     public void setPeriodOfDay(String periodOfDay) {
         this.periodOfDay = periodOfDay;
     }
-    
-    
-    
+
 }

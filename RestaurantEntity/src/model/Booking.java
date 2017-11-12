@@ -11,22 +11,22 @@ import java.io.Serializable;
  *
  * @author cuong
  */
-public class Booking implements Serializable{
-    
+public class Booking implements Serializable {
+
     private int id;
-    
+
     private Restaurant restaurant;
-    
+
     private Table table;
-    
+
     private Time time;
-    
+
     private String note;
-    
+
     private String dateBooking;
-    
+
     private String dateCreate;
-    
+
     private String status;
 
     public Booking() {
@@ -95,6 +95,5 @@ public class Booking implements Serializable{
     public void setStatus(String status) {
         this.status = status;
     }
-    
-    
+
 }
