@@ -14,7 +14,9 @@ import java.io.Serializable;
 public class Table implements Serializable{
 
     private int id;
-
+    
+    private String name;
+    
     private int minSeats;
 
     private int maxSeats;
@@ -67,4 +69,13 @@ public class Table implements Serializable{
         this.restaurant = restaurant;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    
 }
