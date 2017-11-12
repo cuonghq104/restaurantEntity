@@ -15,6 +15,10 @@ public class Booking implements Serializable {
 
     private int id;
 
+    private Customer customer;
+    
+    private int numberOfCustomer;
+    
     private Restaurant restaurant;
 
     private Table table;
@@ -96,4 +100,21 @@ public class Booking implements Serializable {
         this.status = status;
     }
 
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+    public int getNumberOfCustomer() {
+        return numberOfCustomer;
+    }
+
+    public void setNumberOfCustomer(int numberOfCustomer) {
+        this.numberOfCustomer = numberOfCustomer;
+    }
+
+    
 }
