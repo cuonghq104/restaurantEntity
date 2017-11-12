@@ -18,7 +18,7 @@ public class Customer extends User implements Serializable {
     public Customer() {
     }
 
-    public Customer(String idCard, int id, String name, String address, String tel, String email, Account account) {
+    public Customer(int id, String name, String address, String tel, String email, Account account, String idCard) {
         super(id, name, address, tel, email, account);
         this.idCard = idCard;
     }
