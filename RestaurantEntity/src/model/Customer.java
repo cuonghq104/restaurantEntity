@@ -13,22 +13,11 @@ import java.io.Serializable;
  */
 public class Customer extends User implements Serializable {
 
-    private String idCard;
-
     public Customer() {
     }
 
-    public Customer(int id, String name, String address, String tel, String email, Account account, String idCard) {
+    public Customer(int id, String name, String address, String tel, String email, Account account) {
         super(id, name, address, tel, email, account);
-        this.idCard = idCard;
-    }
-
-    public String getIdCard() {
-        return idCard;
-    }
-
-    public void setIdCard(String idCard) {
-        this.idCard = idCard;
     }
 
 }
