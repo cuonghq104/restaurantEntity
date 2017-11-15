@@ -116,5 +116,11 @@ public class Booking implements Serializable {
         this.numberOfCustomer = numberOfCustomer;
     }
 
+    @Override
+    public String toString() {
+        return "Booking{" + "id=" + id + ", customer=" + customer + ", numberOfCustomer=" + numberOfCustomer + ", restaurant=" + restaurant + ", table=" + table + ", time=" + time + ", note=" + note + ", dateBooking=" + dateBooking + ", dateCreate=" + dateCreate + ", status=" + status + '}';
+    }
+
+    
     
 }
